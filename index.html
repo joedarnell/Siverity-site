@@ -5,21 +5,21 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/styles.css">
-<style>.lead p{color:#c9cfdf;margin:0 0 14px;max-width:60ch}.lead p:last-child{margin:0}.mission{font-size:clamp(22px,3vw,30px);line-height:1.3;max-width:30ch;margin:0;text-wrap:balance}</style>
+<style>
+.hero.photo{position:relative;background:#06123a url(/images/hero.jpg) right center/cover no-repeat;min-height:clamp(440px,48vw,620px);display:flex;align-items:center}
+.hero.photo::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(4,12,40,.92) 0%,rgba(4,12,40,.75) 38%,rgba(4,12,40,.15) 62%,rgba(4,12,40,0) 100%)}
+.hero.photo .in{position:relative;display:block;width:100%}
+.hero.photo .lead{max-width:600px}
+.hero.photo h1{font-size:clamp(36px,5vw,58px);text-shadow:0 2px 24px rgba(0,0,0,.45)}
+@media(max-width:800px){.hero.photo{background-image:url(/images/hero-small.jpg);background-position:72% center;align-items:flex-end;min-height:560px}.hero.photo::before{background:linear-gradient(0deg,rgba(4,12,40,.95) 0%,rgba(4,12,40,.85) 45%,rgba(4,12,40,.25) 80%,rgba(4,12,40,.1) 100%)}}
+.lead p{color:#c9cfdf;margin:0 0 14px;max-width:60ch}.lead p:last-child{margin:0}.mission{font-size:clamp(22px,3vw,30px);line-height:1.3;max-width:30ch;margin:0;text-wrap:balance}</style>
 </head><body>
 <header class="top"><a class="brand" href="/"><i>S</i>Siverity Software</a>
 <nav><a href="/">Home</a><a href="/games/">Mobile games</a><a href="/terms.html">Terms</a><a href="mailto:info@siverity.com">Contact</a></nav></header>
-<section class="hero"><div class="in">
+<section class="hero photo"><div class="in">
   <div class="lead"><h1>Technology that informs, entertains and inspires</h1>
   <p>Siverity Software LLC is a software development company focused on creating innovative digital products across predictive analytics, sports intelligence, interactive simulations, and mobile entertainment.</p>
   <p>We design, develop, and operate web-based platforms, mobile applications, and games that combine advanced technology, data-driven insights, and engaging user experiences.</p></div>
-  <svg class="art" viewBox="0 0 200 200" aria-hidden="true">
-    <rect x="14" y="14" width="172" height="172" rx="26" fill="#24365e"/>
-    <g stroke="#3a4f7e" stroke-width="1.5"><path d="M34 60h132M34 95h132M34 130h132"/></g>
-    <path d="M34 150L66 118 92 128 124 82 166 58" fill="none" stroke="#ffcf33" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-    <g fill="#ffcf33"><circle cx="66" cy="118" r="6"/><circle cx="92" cy="128" r="6"/><circle cx="124" cy="82" r="6"/><circle cx="166" cy="58" r="8"/></g>
-    <g transform="translate(118 116)"><rect width="22" height="22" rx="6" fill="#ef4136"/><rect x="26" width="22" height="22" rx="6" fill="#2f74f0"/><rect y="26" width="22" height="22" rx="6" fill="#1fae5b"/><rect x="26" y="26" width="22" height="22" rx="6" fill="#ff8a3d"/></g>
-  </svg>
 </div></section>
 <section class="band"><div class="in">
   <h2>What we build</h2>
