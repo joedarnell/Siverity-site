@@ -95,6 +95,8 @@
   .art.a1{background:linear-gradient(135deg,#ffe4ec,#ffd2b8)}
   .art.a2{background:linear-gradient(135deg,#dbeafe,#e9d5ff)}
   .art.a3{background:linear-gradient(135deg,#d1fae5,#fef3c7)}
+  .art.a4{background:linear-gradient(135deg,#fde2e4,#e0f2fe)}
+  .art.a5{background:linear-gradient(135deg,#fef3c7,#fde2e4)}
   .tiles{display:grid;grid-template-columns:repeat(4,34px);gap:6px;transform:rotate(-8deg)}
   .tiles i{height:34px;border-radius:9px;box-shadow:0 6px 12px -6px rgba(0,0,0,.3)}
   .soon{position:absolute;top:14px;left:14px;font-size:11.5px;font-weight:600;padding:5px 10px;border-radius:99px;background:rgba(255,255,255,.88);color:#1e293b}
